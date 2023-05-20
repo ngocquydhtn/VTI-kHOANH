@@ -1,6 +1,4 @@
 import React from "react";
-// import Banner from "../../../../components/banner";
-// import PhotoForm from "../../components/PhotoForm";
 import "./styles.scss";
 import PhotoForm from "../../component/photoForm";
 import Banner from "../../../../components/banner";
