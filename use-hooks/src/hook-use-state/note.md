@@ -2,8 +2,8 @@
 
 ### dùng khi nào
 
-khi muốn dữ liệu thay đổi thì
-giao diện tự động được cập nhập ( render lại theo dữ liệu)
+- khi muốn dữ liệu thay đổi thì
+- giao diện tự động được cập nhập ( render lại theo dữ liệu)
 
 ### cách dùng
 
