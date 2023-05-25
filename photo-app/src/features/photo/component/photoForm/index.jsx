@@ -18,13 +18,14 @@ function PhotoForm(props) {
   // npm i --save react-select
   const isAddMode = props.isAddMode;
   const initialValues = props.initialValues;
-  const validationSchema = Yup.object().shape({
+  const validate = {
     title: Yup.string().required("This field is required."),
 
-    categoryId: Yup.number().required("This field is required.").nullable(),
+    categoryId: Yup.number().required("This field is required."),
 
     photo: Yup.string().required("This field is required."),
-  });
+  };
+  const validationSchema = Yup.object(validate);
   return (
     <Formik
       initialValues={initialValues}
